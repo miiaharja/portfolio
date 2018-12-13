@@ -146,7 +146,7 @@ class Projects extends Component {
                                             <p className="card__projects-text"><Translate id="projects__card-4__back--text"/></p>
                                         </div>
                                         <a href="https://github.com/miiaharja/burger-builder" className="btn btn--white u-margin-bottom-small" target="_blank">Github</a>
-                                        <a href="https://react-my-burger-c83bb.firebaseapp.com/" className="btn btn--white" target="_blank">Sivusto</a>
+                                        <a href="https://react-my-burger-c83bb.firebaseapp.com/" className="btn btn--white" target="_blank"><Translate id="projects__card-3__back--button"/></a>
                                     </div>
                                 </div>
                         </div>

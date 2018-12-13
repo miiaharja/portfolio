@@ -87,7 +87,7 @@ class Contact extends Component {
                                 </div>
 
                                 <div className="form__group">
-                                    <input type="text" className="form__input" placeholder="Nimi" id="name" 
+                                    <input type="text" className="form__input" placeholder="Name" id="name" 
                                         value={this.state.name} 
                                         onChange={(event) => this.setState({name: event.target.value})}
                                         required />
@@ -103,7 +103,7 @@ class Contact extends Component {
                                 </div>
 
                                 <div className="form__group">
-                                    <input type="text" className="form__input" placeholder="Aihe" id="subject"
+                                    <input type="text" className="form__input" placeholder="Subject" id="subject"
                                         value={this.state.subject}
                                         onChange={(event) => this.setState({subject: event.target.value})}
                                         required />
@@ -111,7 +111,7 @@ class Contact extends Component {
                                 </div>
 
                                 <div className="form__group">
-                                    <textarea name="message" className="form__textarea" placeholder="Viesti" form="form_id" id="message"
+                                    <textarea name="message" className="form__textarea" placeholder="Message" form="form_id" id="message"
                                     value={this.state.message}
                                     onChange={(event) => this.setState({message: event.target.value})}></textarea>
                                     <label for="message" className="form__label"><Translate id="contact__input-4"/></label>
