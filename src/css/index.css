@@ -502,7 +502,7 @@ body {
         width: auto; } }
     @media (max-width: 600px) {
       .popup__content {
-        margin-top: 30%;
+        margin-top: 50%;
         height: 100%; } }
   .popup__left {
     width: 15%;
@@ -609,7 +609,7 @@ body {
     @media (max-width: 600px) {
       .header__text-box {
         position: absolute;
-        top: 60%;
+        top: 65%;
         left: 50%;
         text-align: center; } }
 
