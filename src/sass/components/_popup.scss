@@ -13,7 +13,7 @@
 
     &__content {
         @include absCenter;
-        width: 75%;
+        width: 80%;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
         border-radius: 3px;
@@ -22,10 +22,19 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
+
+        @media (max-width: 1600px) { 
+            width: 95%;
+        };
+
+        @include respond(tab-port) {
+            width: auto;
+        }
+        
     }
 
     &__left {
-        width: 33.333333%;
+        width: 15%;
         display: table-cell;
 
         @include respond(tab-land) {
@@ -34,7 +43,7 @@
     }
 
     &__right {
-        width: 66.6666667%;
+        width: 85%;
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
