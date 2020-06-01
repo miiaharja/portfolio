@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "../translations/texts.json";
 import { Translate } from "react-localize-redux";
 import LanguageToggle from '../components/LanguageToggle';
 
@@ -9,7 +8,6 @@ import LanguageToggle from '../components/LanguageToggle';
 class Navigation extends Component {
     constructor(props) {
         super(props);
-        this.props.addTranslation(globalTranslations);
 
         this.state = {
             isChecked: false,

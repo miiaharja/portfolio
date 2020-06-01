@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "../translations/texts.json";
 import { Translate } from "react-localize-redux";
 
 class Projects extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.props.addTranslation(globalTranslations);
-    }
     render() {
         return (
             <section className="section-projects" id="section-projects">
@@ -47,7 +41,7 @@ class Projects extends Component {
                                             <p className="card__projects-text"><Translate id="projects__card-1__back--text"/></p>
                                             
                                         </div>
-                                        <a href="http://www.blacktopmanagement.com/" className="btn btn--white" target="_blank"><Translate id="projects__card-1__back--button"/></a>
+                                        <a href="http://www.blacktopmanagement.com/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-1__back--button"/></a>
                                     </div>
                                 </div>
                         </div>
@@ -79,7 +73,7 @@ class Projects extends Component {
                                             <p className="card__projects-header"><Translate id="projects__card-2__back--header"/></p>
                                             <p className="card__projects-text"><Translate id="projects__card-2__back--text"/></p>
                                         </div>
-                                        <a href="https://fbfactor.fi/" className="btn btn--white" target="_blank"><Translate id="projects__card-2__back--button"/></a>
+                                        <a href="https://fbfactor.fi/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-2__back--button"/></a>
                                     </div>
                                 </div>
                         </div>
@@ -111,7 +105,7 @@ class Projects extends Component {
                                             <p className="card__projects-header"><Translate id="projects__card-3__back--header"/></p>
                                             <p className="card__projects-text"><Translate id="projects__card-3__back--text"/></p>
                                         </div>
-                                        <a href="http://smhallit.fi/" className="btn btn--white" target="_blank"><Translate id="projects__card-3__back--button"/></a>
+                                        <a href="http://smhallit.fi/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-3__back--button"/></a>
                                     </div>
                                 </div>
                         </div>
@@ -145,8 +139,8 @@ class Projects extends Component {
                                             <p className="card__projects-header"><Translate id="projects__card-4__back--header"/></p>
                                             <p className="card__projects-text"><Translate id="projects__card-4__back--text"/></p>
                                         </div>
-                                        <a href="https://github.com/miiaharja/burger-builder" className="btn btn--white u-margin-bottom-small" target="_blank">Github</a>
-                                        <a href="https://react-my-burger-c83bb.firebaseapp.com/" className="btn btn--white" target="_blank"><Translate id="projects__card-3__back--button"/></a>
+                                        <a href="https://github.com/miiaharja/burger-builder" rel="noopener noreferrer" className="btn btn--white u-margin-bottom-small" target="_blank">Github</a>
+                                        <a href="https://react-my-burger-c83bb.firebaseapp.com/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-3__back--button"/></a>
                                     </div>
                                 </div>
                         </div>
@@ -178,7 +172,7 @@ class Projects extends Component {
                                         <p className="card__projects-header"><Translate id="projects__card-5__back--header"/></p>
                                         <p className="card__projects-text"><Translate id="projects__card-5__back--text"/></p>
                                     </div>
-                                    <a href="https://github.com/miiaharja/socket.io-chat" className="btn btn--white" target="_blank">Github</a>
+                                    <a href="https://github.com/miiaharja/socket.io-chat" rel="noopener noreferrer" className="btn btn--white" target="_blank">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +203,7 @@ class Projects extends Component {
                                             <p className="card__projects-header"><Translate id="projects__card-6__back--header"/></p>
                                             <p className="card__projects-text"><Translate id="projects__card-6__back--text"/></p>
                                         </div>
-                                        <a href="https://github.com/miiaharja/usermanagement" className="btn btn--white" target="_blank">Github</a>
+                                        <a href="https://github.com/miiaharja/usermanagement" rel="noopener noreferrer" className="btn btn--white" target="_blank">Github</a>
                                     </div>
                                 </div>
                         </div>

@@ -2,15 +2,9 @@ import React, { Component } from 'react';
 import photo from '../img/mie1.jpg';
 
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "../translations/texts.json";
 import { Translate } from "react-localize-redux";
 
 class Popup extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.props.addTranslation(globalTranslations);
-    }
 
     render() {
         return (

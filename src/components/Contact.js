@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "../translations/texts.json";
 import { Translate } from "react-localize-redux";
 
 /*axios.create({
@@ -40,7 +39,6 @@ class Contact extends Component {
             errors: []
         };
     
-        this.props.addTranslation(globalTranslations);
     }
 
     handleSubmit = (e) => {

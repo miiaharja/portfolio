@@ -2,15 +2,9 @@ import React, { Component } from 'react';
 
 import photo from "../img/about-cat.jpg";
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "../translations/texts.json";
 import { Translate } from "react-localize-redux";
 
 class About extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.props.addTranslation(globalTranslations);
-      }
     render() {
         return (
             <div className="section-about u-margin-bottom-big" id="section-about">
@@ -26,7 +20,6 @@ class About extends Component {
                             <Translate id="about__p1"/>
                         </p>
 
-                        <h3 className="heading-tertiary u-margin-bottom-small"></h3>
                         <p className="paragraph">
                         <Translate id="about__p2"/>
                         </p>
@@ -35,7 +28,7 @@ class About extends Component {
 
                     </div>
                     <div className="col-1-of-2">
-                               <img src={photo} alt="Photo 1" className="photo--small u-margin-bottom-big" />
+                               <img src={photo} alt="Miia Harja" className="photo--small u-margin-bottom-big" />
                     </div>
                 </div>
             </div>

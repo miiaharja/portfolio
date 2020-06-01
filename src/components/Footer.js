@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "../translations/texts.json";
 import { Translate } from "react-localize-redux";
 
 class Footer extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.props.addTranslation(globalTranslations);
-    }
     render() {
         return (
             <div>
@@ -31,8 +25,8 @@ class Footer extends Component {
                        
                         
                         <div className="col-1-of-2">
-                        <a href="https://github.com/miiaharja" className="footer__icon-link" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/miiaharja/" className="footer__icon-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/miiaharja" className="footer__icon-link" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/miiaharja/" className="footer__icon-link" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <p className="footer__copyright">
                                 Copyright &copy; Miia Harja 2018.
                             </p>

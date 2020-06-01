@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "../translations/texts.json";
 import { Translate } from "react-localize-redux";
 
 class Skills extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.props.addTranslation(globalTranslations);
-    }
 
     render() {
         return (

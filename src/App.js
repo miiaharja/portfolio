@@ -3,7 +3,6 @@ import './css/index.css';
 
 import { renderToStaticMarkup } from "react-dom/server";
 import { withLocalize } from "react-localize-redux";
-import globalTranslations from "./translations/texts.json";
 
 import Header from './components/Header';
 import About from './components/About';
@@ -24,7 +23,6 @@ class App extends Component {
         { name: "English", code: "en" },
         { name: "Finnish", code: "fin" }
       ],
-      translation: globalTranslations,
       options: { 
         renderToStaticMarkup,
         renderInnerHtml: true,
@@ -35,7 +33,9 @@ class App extends Component {
   componentDidMount() {
     fetch('https://miiaharja.github.io/portfolio/src/translations/texts.json')
     .then(response => response.json())
-    .then(data => console.log(data));
+    .then(data => {
+      this.props.addTranslation(data);
+    });
   }
   
 
