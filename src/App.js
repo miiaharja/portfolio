@@ -31,6 +31,14 @@ class App extends Component {
         defaultLanguage: "fin" }
     });
   }
+
+  componentDidMount() {
+    fetch('https://miiaharja.github.io/portfolio/src/translations/texts.json')
+    .then(response => response.json())
+    .then(data => console.log(data));
+  }
+  
+
   render() {
     return (
         <>
