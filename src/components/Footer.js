@@ -28,7 +28,7 @@ class Footer extends Component {
                         <a href="https://github.com/miiaharja" className="footer__icon-link" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/miiaharja/" className="footer__icon-link" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <p className="footer__copyright">
-                                Copyright &copy; Miia Harja 2018.
+                                Copyright &copy; Miia Harja 2020.
                             </p>
                             
                         </div>

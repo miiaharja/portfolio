@@ -43,7 +43,8 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
   @media (max-width: 1200px) {
     html {
       font-size: 56.25%; } }
@@ -343,11 +344,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #fface4, #92024a), url(../img/blacktop.jpg); }
+      background-image: linear-gradient(to right bottom, #fface4, #92024a), url(../img/caravanlandia.png); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #fface4, #92024a), url(../img/fbfactor.jpg); }
+      background-image: linear-gradient(to right bottom, #fface4, #92024a), url(../img/lampopartio.png); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #fface4, #92024a), url(../img/smhallit.png); }
+      background-image: linear-gradient(to right bottom, #fface4, #92024a), url(../img/mern.png); }
     .card__picture--4 {
       background-image: linear-gradient(to right bottom, #fface4, #92024a), url(../img/burger-builder.png); }
     .card__picture--5 {

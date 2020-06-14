@@ -4,10 +4,10 @@
   "private": true,
   "proxy": "http://localhost:3001",
   "dependencies": {
-    "axios": "^0.18.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-localize-redux": "^3.5.1",
+    "axios": "^0.18.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-localize-redux": "^3.5.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
@@ -28,6 +28,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "node-sass": "^4.10.0"
+    "node-sass": "^4.14.1"
   }
 }

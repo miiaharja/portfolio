@@ -68,7 +68,6 @@ class Skills extends Component {
                                     <li className="skills-box__li">Angular</li>
                                     <li className="skills-box__li">Vue.js</li>
                                     <li className="skills-box__li">TypeScript</li>
-                                    <li className="skills-box__li">PHP</li>
                                     <li className="skills-box__li"></li>
                                 </ul>
                             </p>

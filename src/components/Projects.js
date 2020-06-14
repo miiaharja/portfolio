@@ -30,6 +30,7 @@ class Projects extends Component {
                                             <li>WordPress</li>
                                             <li>CSS</li>
                                             <li>PHP</li>
+                                            <li>Vue</li>
                                             <li><Translate id="projects__card-1--type"/></li>
                                         </ul>
                                     </div>
@@ -41,7 +42,7 @@ class Projects extends Component {
                                             <p className="card__projects-text"><Translate id="projects__card-1__back--text"/></p>
                                             
                                         </div>
-                                        <a href="http://www.blacktopmanagement.com/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-1__back--button"/></a>
+                                        <a href="https://caravanlandia.fi/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-1__back--button"/></a>
                                     </div>
                                 </div>
                         </div>
@@ -73,7 +74,7 @@ class Projects extends Component {
                                             <p className="card__projects-header"><Translate id="projects__card-2__back--header"/></p>
                                             <p className="card__projects-text"><Translate id="projects__card-2__back--text"/></p>
                                         </div>
-                                        <a href="https://fbfactor.fi/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-2__back--button"/></a>
+                                        <a href="https://lampopartio.fi/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-2__back--button"/></a>
                                     </div>
                                 </div>
                         </div>
@@ -87,14 +88,15 @@ class Projects extends Component {
                                     </div>
                                     <h4 className="card__heading">
                                         <span className="card__heading-span">
-                                            <Translate id="projects__card-2--header"/>
+                                            <Translate id="projects__card-3--header"/>
                                         </span>
                                     </h4>
                                     <div className="card__details">
                                         <ul>
-                                            <li>WordPress</li>
-                                            <li>CSS</li>
-                                            <li>PHP</li>
+                                            <li>React</li>
+                                            <li>MongoDB</li>
+                                            <li>NodeJS</li>
+                                            <li>Express</li>
                                             <li><Translate id="projects__card-3--type"/></li>
                                         </ul>
                                     </div>
@@ -105,7 +107,9 @@ class Projects extends Component {
                                             <p className="card__projects-header"><Translate id="projects__card-3__back--header"/></p>
                                             <p className="card__projects-text"><Translate id="projects__card-3__back--text"/></p>
                                         </div>
-                                        <a href="http://smhallit.fi/" rel="noopener noreferrer" className="btn btn--white" target="_blank"><Translate id="projects__card-3__back--button"/></a>
+                                        <a href="https://mern-app-miia.web.app/" rel="noopener noreferrer" className="btn btn--white u-margin-bottom-small" target="_blank"><Translate id="projects__card-3__back--button"/></a>
+                                        <a href="https://github.com/miiaharja/mern-frontend" rel="noopener noreferrer" className="btn btn--white u-margin-bottom-small" target="_blank">Github Front</a>
+                                        <a href="https://github.com/miiaharja/mern-backend" rel="noopener noreferrer" className="btn btn--white" target="_blank">Github Back</a>
                                     </div>
                                 </div>
                         </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import photo from '../img/mie1.jpg';
+import photo from '../img/miia.jpg';
 
 import { withLocalize } from "react-localize-redux";
 import { Translate } from "react-localize-redux";
@@ -13,6 +13,7 @@ class Popup extends Component {
                     <div className="popup__left">
                         <img src={photo} alt="Omakuva" className="popup__img"/>
                     </div>
+                    
                     <div className="popup__right">
                         <a href="#section-about" className="popup__close">&times;</a>
                         <h2 className="heading-secondary u-margin-bottom-small"><Translate id="popup__h2"/></h2>
