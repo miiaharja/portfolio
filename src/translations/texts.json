@@ -8,10 +8,10 @@
 
     "about__h2": ["Web Design and software development", "Web-kehitystä ja ohjelmistosuunnittelua"],
     "about__h3": ["Who am I?", "Kuka olen?"],
-    "about__p1": ["I'm a 25-year-old web-developer from Jyväskylä, who's interested to work in web- or software development. I currently work as a WordPress/Web Developer in a marketing agency. I graduated as a Bachelor of Business Administration in 2018. In my freetime I have self-studied modern web technologies, for example React, Sass and modern CSS. Previously I graduated as a media-assistant, where I focused my studies on graphic design.", 
-        "Olen 25-vuotias koodari Jyväskylästä, joka on kiinnostunut työskentelemään web- ja ohjelmistokehityksen parissa. Työskentelen tällä hetkellä WordPress/Web-kehittäjänä mainostoimistossa. Valmistuin tietojenkäsittelyn tradenomiksi vuonna 2018. Vapaa-ajalla olen opiskellut itsenäisesti moderneja teknologioita, kuten Reactia, Sassia, sekä MERN-stackin käyttöä. Aiemmin opiskelin media-assistentiksi, jolloin painotin graafiseen suunnitteluun, joten minulta löytyy myös visuaalista silmää."],
-    "about__p2": ["In my freetime I spend my time on my computer coding and gaming. Also I go to the gym and knit awesome socks and mittens.",
-        "Vapaa-ajallani käytän aikaani monipuolisesti tietokoneen ääressä koodaillen ja pelaillen. Lisäksi käyn kuntosalilla, liikun luonnossa ja neulon pirun hienoja villasukkia."],
+    "about__p1": ["I'm a web-developer from Jyväskylä, who's interested to work in web- or software development. I currently work as a Front-end Developer. I graduated as a Bachelor of Business Administration in 2018. In my freetime I have self-studied modern web technologies, for example React, Sass and modern CSS. Previously I graduated as a media-assistant, where I focused my studies on graphic design.", 
+        "Olen 27-vuotias koodari Jyväskylästä, joka on kiinnostunut työskentelemään web- ja ohjelmistokehityksen parissa. Työskentelen tällä hetkellä Front-end koodarina. Valmistuin tietojenkäsittelyn tradenomiksi vuonna 2018. Vapaa-ajalla olen opiskellut itsenäisesti moderneja teknologioita, kuten Reactia, Sassia, sekä MERN-stackin käyttöä. Aiemmin opiskelin media-assistentiksi, jolloin painotin graafiseen suunnitteluun, joten minulta löytyy myös visuaalista silmää."],
+    "about__p2": ["In my freetime I spend my time on my computer coding and gaming. Also I go to the gym, hike outdoors and knit socks and mittens.",
+        "Vapaa-ajallani käytän aikaani monipuolisesti tietokoneen ääressä koodaillen ja pelaillen. Lisäksi käyn kuntosalilla, liikun luonnossa ja neulon."],
     "about__button": ["Learn more", "Lue lisää"],
 
     "popup__h2": ["Who am I?", "Kuka olen?"],
